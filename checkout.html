@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!--Style Link-->
+    <link rel="stylesheet" href="style2.css">
+    <!--Style Link-->
+
+    <!-- Link fonte da logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <!-- Link fonte da logo-->
+
+    <!-- Link icones do google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Link icones  e fontes do google-->
+
+    <title>Lumina Aura</title>
+</head>
+<body>
+    <!-- Inicio Cabeçalho -->
+
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas menu"><ion-icon name="menu"></ion-icon></label>
+
+        <a href="index.html" class="logo">Lumina Aura</a>
+
+        <nav class="navbar">
+            <a href="#produtos">Produtos</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#ebooks">E-books</a>
+            <a href="#avaliacoes">Avaliações</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas coracao"><ion-icon name="heart-outline"></ion-icon></a>
+            <a href="#" class="fas usuário"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+
+    </header>
+
+    <!-- Fim Cabeçalho -->
+
+
+
+    <main class="container">
+        <div class="item-flex">
+
+            <!-- Inicio da seção checkout-->
+
+            <section class="checkout">
+            
+                <h2 class="cabecalho" id="dados-pessoais">Dados Pessoais</h2>
+                <div class="dados-pessoais">
+                    <form action="#">
+
+                        <div class="e-mail">
+                            <label for="e-mail" class="rotulo-padrao">E-mail</label>
+                            <input type="text" name="e-mail"  id="e-mail"  class="input-padrao">
+                        </div>
+
+                        <div class="nome-completo">
+                            <label for="nome-completo" class="rotulo-padrao">Nome completo</label>
+                            <input type="text" name="nome-completo"  id="nome-completo"  class="input-padrao">
+                        </div>
+
+                        <div class="input-flex">
+
+                            <div class="celular">
+                                <label for="celular" class="rotulo-padrao">celular</label>
+
+                                <div class="input-flex">
+                                    <input type="text" name="celular" id="celular" 
+                                     class="input-padrao">
+                                </div>
+                            </div>
+
+                            <div class="cpf">
+                                <label for="cpf" class="rotulo-padrao">CPF</label>
+                                <input type="number" name="cpf"  id="cpf"  class="input-padrao">
+                            </div>
+
+                        </div>
+
+                    </form>
+
+
+                </div>
+
+                <h2 class="cabecalho">Endereço de Entrega</h2>
+                <div class="entrega">
+
+                    <form action="#">
+
+                        <div class="cep">
+                            <label for="cep" class="rotulo-padrao">CEP</label>
+                            <input type="text" name="cep"  id="cep"  class="input-padrao">
+                        </div>
+
+                        <div class="estado">
+                            <label for="estado" class="rotulo-padrao">Estado</label>
+                            <input type="text" name="estado"  id="estado"  class="input-padrao">
+                        </div>
+
+                        <div class="input-flex">
+
+                            <div class="rua">
+                                <label for="rua" class="rotulo-padrao">Rua</label>
+
+                                <div class="input-flex">
+                                    <input type="text" name="rua" id="rua" 
+                                     class="input-padrao">
+                                </div>
+                            </div>
+
+                            <div class="numero">
+                                <label for="numero" class="rotulo-padrao">Número</label>
+                                <input type="number" name="numero"  id="numero"  class="input-padrao">
+                            </div>
+
+                            <div class="complemento">
+                                <label for="complemento" class="rotulo-padrao">Complemento</label>
+                                <input type="text" name="complemento"  id="complemento"  class="input-padrao">
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <h2 class="cabecalho">Detalhes de pagamento</h2>
+
+                <div class="forma-pagamento">
+
+                    <div class="metodo-pagamento">
+
+                        <button class="metodo selecionado">
+                            <ion-icon name="card-outline"></ion-icon>
+
+                            <span>Cartão de crédito</span>
+
+                            <ion-icon class="checkmark preencher" name="checkmark-circle"></ion-icon>
+
+                        </button>
+
+                        <button class="metodo">
+                            <ion-icon name="barcode-outline"></ion-icon>
+
+                            <span>Boleto</span>
+
+                            <ion-icon class="checkmark" name="checkmark-circle-outline"></ion-icon>
+
+                        </button>
+
+                        <button class="metodo">
+                            <ion-icon name="qr-code-outline"></ion-icon>
+
+                            <span>PIX</span>
+
+                            <ion-icon class="checkmark" name="checkmark-circle-outline"></ion-icon>
+
+                        </button>
+
+                    </div>
+
+                    <form action="#">
+
+                        <div class="titulardocartao-nome">
+                            <label for="titulardocartao-nome" class="rotulo-padrao">Nome do titular do cartão</label>
+                            <input type="text" name="titulardocartao-nome"  id="titulardocartao-nome"  class="input-padrao">
+                        </div>
+
+                        <div class="numero-cartao">
+                            <label for="numero-cartao" class="rotulo-padrao">Número do cartão</label>
+                            <input type="number" name="numero-cartao"  id="numero-cartao"  class="input-padrao">
+                        </div>
+
+                        <div class="input-flex">
+
+                            <div class="validade">
+                                <label for="validade" class="rotulo-padrao">Validade</label>
+
+                                <div class="input-flex">
+                                    <input type="number" name="day" id="validade" placeholder="31" 
+                                    min="1" max="31"  class="input-padrao">
+
+                                    <input type="number" name="month" id="validade" placeholder="12" 
+                                    min="1" max="12"  class="input-padrao">
+                                </div>
+                            </div>
+
+                            <div class="cvv">
+                                <label for="cvv" class="rotulo-padrao">CVV</label>
+                                <input type="number" name="cvv"  id="cvv"  class="input-padrao">
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <button class="btn btn-primary">
+                    <b>Comprar</b> R$ <span id="valor-pagamento">254,50</span>
+                </button>
+
+            </section>
+
+            <!-- Fim da seção checkout-->
+
+            <!-- Inicio da seção carrinho-->
+
+            <section class="carrinho">
+
+                <div class="carrinho-item-box">
+
+                    <h2 class="cabecalho" id="resumo-pedido">Resumo do Pedido</h2>
+
+                    <div class="produto-cartao">
+
+                        <div class="cartao">
+
+                            <div class="img-box">
+                                <img src="img/_Lash Designer .png" alt="curso lash designer" width="90px" class="produto-img">
+                            </div>
+
+                            <div class="detalhes">
+
+                                <h4 class="nome-produto">Curso de lash designer</h4>
+
+                                <div class="wrapper">
+
+                                    <div class="quant-produto">
+                                        <button id="decrementar">
+                                            <ion-icon name="remove-outline"></ion-icon>
+                                        </button>
+
+                                        <span id="quant">1</span>
+
+                                        <button id="incrementar">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+
+                                    <div class="preco">
+                                        R$ <span id="preco">135,00</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <button class="fechar-produto-btn">
+                                <ion-icon name="close-outline"></ion-icon>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="produto-cartao">
+
+                        <div class="cartao">
+
+                            <div class="img-box">
+                                <img src="img/_nailDesigner .png" alt="curso nail designer" width="90px" class="produto-img">
+                            </div>
+
+                            <div class="detalhes">
+
+                                <h4 class="nome-produto">Curso de nail designer</h4>
+
+                                <div class="wrapper">
+
+                                    <div class="quant-produto">
+                                        <button id="decrementar">
+                                            <ion-icon name="remove-outline"></ion-icon>
+                                        </button>
+
+                                        <span id="quant">1</span>
+
+                                        <button id="incrementar">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+
+                                    <div class="preco">
+                                        R$ <span id="preco">114,00</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <button class="fechar-produto-btn">
+                                <ion-icon name="close-outline"></ion-icon>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="wrapper">
+
+                    <div class="cupom-desconto">
+
+                        <label for="cupom-desconto" class="rotulo-padrao">Cupom de desconto</label>
+
+                        <div class="wrapper-flex">
+
+                            <input type="text" name="cupom-desconto" id="cupom-desconto" class="input-padrao">
+
+                            <button class="btn btn-outline">
+                                Aplicar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="quant">
+
+                       <div class="subtotal">
+                        <span>Subtotal</span> <span>R$ <span class="subtotal">249,00</span></span>
+                       </div> 
+
+                       <div class="cupom">
+                        <span>Cupom</span> <span>R$ <span class="cupom">---</span></span>
+                       </div>
+
+                       <div class="frete">
+                        <span>Frete</span> <span>R$ <span class="frete">5,50</span></span>
+                       </div>
+
+                       <div class="total">
+                        <span>Total</span> <span>R$ <span class="frete">254,50</span></span>
+                       </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Link dos icons -->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <!-- Fim Link dos icons -->
+
+</body>
+</html>
